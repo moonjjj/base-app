@@ -17,8 +17,3 @@ export default meta
 export const 기본 = (args: SpacingProps) => {
     return <Spacing {...args} />
 }
-
-
-
-
-

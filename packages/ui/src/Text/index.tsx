@@ -48,8 +48,3 @@ export function Text({children, color = 'adaptiveGrey900', size = 't3', bold = f
         </div>
     )
 }
-
-
-
-
-
