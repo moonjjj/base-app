@@ -1,3 +1,4 @@
+// eslint-disable-next-line unused-imports/no-unused-imports
 import _ from '../node_modules/@moonjeseon/ui/dist/styles/design-system.scss'
 
 // 트리쉐이킹
