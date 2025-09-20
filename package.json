@@ -17,7 +17,7 @@
         "start:docs": "turbo start:docs --filter ui-docs",
         "build:docs": "turbo build:docs",
         "build:watch": "turbo build:watch",
-        "publish":"changeset publish"
+        "publish": "changeset publish"
     },
     "devDependencies": {
         "@changesets/cli": "^2.27.12",
