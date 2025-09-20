@@ -1,0 +1,19 @@
+.article {
+    padding: 10px;
+    background-color: var(--adaptiveBackground);
+    cursor: pointer;
+    transition:
+        background-color 0.2s,
+        transform 0.1s;
+
+    border-radius: 12px; 
+
+    &:hover {
+        background-color: var(--adaptiveGrey100);
+    }
+
+    &:active {
+        background-color: var(--adaptiveGrey200); 
+        transform: scale(0.98);
+    }
+}
