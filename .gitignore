@@ -21,3 +21,5 @@ node_modules/
 # build file
 dist
 .npmrc
+
+.DS_Store
