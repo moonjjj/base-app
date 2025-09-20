@@ -37,8 +37,3 @@ export const 텍스트 = ({color, size, bold, text}: TextProps & {text: string})
         </Text>
     )
 }
-
-
-
-
-

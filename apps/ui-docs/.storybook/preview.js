@@ -1,7 +1,7 @@
-import _ from '../node_modules/@moonjeseon/ui/dist/styles/design-system.scss';
+import _ from '../node_modules/@moonjeseon/ui/dist/styles/design-system.scss'
 
 // 트리쉐이킹
-console.log('_',_);
+console.log('_', _)
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {

@@ -27,8 +27,3 @@ export const 플렉스 = ({direction, justify, align, gap}: FlexProps) => {
         </div>
     )
 }
-
-
-
-
-
