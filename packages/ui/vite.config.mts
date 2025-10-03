@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import dts from 'vite-plugin-dts'
 import path from 'path'
 import {viteStaticCopy} from 'vite-plugin-static-copy'
+import cssInjected from 'vite-plugin-css-injected-by-js'
 
 import fs from 'fs'
 
@@ -61,12 +62,13 @@ export default defineConfig({
                 },
             ],
         }),
+        cssInjected(),
     ],
     build: {
         lib: {
             entry: path.resolve(__dirname, 'src/index.ts'), // 빌드할 엔트리 파일
             formats: ['es'], // ESM 형식으로 빌드
-            fileName: 'index.mjs', // 출력 파일명 명확하게 구분하고 싶을 땐 / cjs, mjs로 구분한다.
+            fileName: 'index.mjs', // 출력 파일명
         },
         outDir: 'dist', // 빌드된 파일들은 dist 폴더에 생성
         rollupOptions: {

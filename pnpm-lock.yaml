@@ -38,6 +38,9 @@ importers:
       vite:
         specifier: ^6.3.3
         version: 6.3.3(@types/node@20.17.14)(sass-embedded@1.87.0)(sass@1.83.4)(terser@5.37.0)
+      vite-plugin-css-injected-by-js:
+        specifier: ^3.5.2
+        version: 3.5.2(vite@6.3.3(@types/node@20.17.14)(sass-embedded@1.87.0)(sass@1.83.4)(terser@5.37.0))
       vite-plugin-dts:
         specifier: ^4.5.3
         version: 4.5.3(@types/node@20.17.14)(rollup@4.40.0)(typescript@5.7.3)(vite@6.3.3(@types/node@20.17.14)(sass-embedded@1.87.0)(sass@1.83.4)(terser@5.37.0))
@@ -4875,6 +4878,11 @@ packages:
 
   varint@6.0.0:
     resolution: {integrity: sha512-cXEIW6cfr15lFv563k4GuVuW/fiwjknytD37jIOLSdSWuOI6WnO/oKwmP2FQTU2l01LP8/M5TSAJpzUaGe3uWg==}
+
+  vite-plugin-css-injected-by-js@3.5.2:
+    resolution: {integrity: sha512-2MpU/Y+SCZyWUB6ua3HbJCrgnF0KACAsmzOQt1UvRVJCGF6S8xdA3ZUhWcWdM9ivG4I5az8PnQmwwrkC2CAQrQ==}
+    peerDependencies:
+      vite: '>2.0.0-0'
 
   vite-plugin-dts@4.5.3:
     resolution: {integrity: sha512-P64VnD00dR+e8S26ESoFELqc17+w7pKkwlBpgXteOljFyT0zDwD8hH4zXp49M/kciy//7ZbVXIwQCekBJjfWzA==}
@@ -10351,6 +10359,10 @@ snapshots:
       spdx-expression-parse: 3.0.1
 
   varint@6.0.0: {}
+
+  vite-plugin-css-injected-by-js@3.5.2(vite@6.3.3(@types/node@20.17.14)(sass-embedded@1.87.0)(sass@1.83.4)(terser@5.37.0)):
+    dependencies:
+      vite: 6.3.3(@types/node@20.17.14)(sass-embedded@1.87.0)(sass@1.83.4)(terser@5.37.0)
 
   vite-plugin-dts@4.5.3(@types/node@20.17.14)(rollup@4.40.0)(typescript@5.7.3)(vite@6.3.3(@types/node@20.17.14)(sass-embedded@1.87.0)(sass@1.83.4)(terser@5.37.0)):
     dependencies:
